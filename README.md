@@ -36,14 +36,16 @@ cmake ..
 make
 
 # Para la versión secuencial
-cd build
 cmake ..
 make Tarea2-SSOO_secuencial
 
 # Para la versión paralela con std::thread
-cd build
 cmake ..
 make Tarea2-SSOO_paralelo_thread
+
+#para ejecutar los distintos codigo:
+./Tarea2-SSOO_secuencial
+./Tarea2-SSOO_paralelo_thread
 ```
 Esto debería configurar y compilar tanto OpenCV como tu proyecto correctamente. Recuerda ajustar las rutas y nombres de archivo según corresponda a tu proyecto.
 

@@ -43,7 +43,7 @@ void aplicarFiltroLuminosidadThreaded(cv::Mat& imagen, int inicio, int fin) {
 
 int main() {
     // Cargar la imagen
-    cv::Mat imagen = cv::imread("/jcaniumil/Tarea2-SSOO/src/auto.jpg");
+    cv::Mat imagen = cv::imread("src/auto.jpg");
 
     if (imagen.empty()) {
         std::cerr << "No se pudo cargar la imagen." << std::endl;
@@ -59,7 +59,7 @@ int main() {
     std::cout << "Proceso secuencial completado. Imagen guardada como 'imagen_procesada_secuencial.jpg'" << std::endl;
 
     // Versión paralela con std::thread
-    cv::Mat imagenThreaded = cv::imread("/jcaniumil/Tarea2-SSOO/src/auto.jpg");
+    cv::Mat imagenThreaded = cv::imread("src/auto.jpg");
 
     if (imagenThreaded.empty()) {
         std::cerr << "No se pudo cargar la imagen para la versión paralela." << std::endl;

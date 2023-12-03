@@ -1,0 +1,21 @@
+# .gitignore
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Build
+build/
+
+# Compiled files
+*.o
+*.out
+*.exe
+
+# Temporary files
+*.log
+
+# OpenCV
+opencv/
+

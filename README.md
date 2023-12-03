@@ -3,31 +3,34 @@ Tarea 2 sistemas operativos
 
 Instrucciones de Instalación para Proyecto Tarea 2 (proyecto creado en ubuntu)
 Clonar el Repositorio de github o bajarlo desde moodle
-
+```
 git clone https://github.com/Pixuh/Tarea2-SSOO.git 
-
+```
 Instalar Dependencias
-
+```
 sudo apt-get update
 sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
-
+```
 Configurar y Compilar OpenCV (dentro de la carpeta del proyecto)
 
+```
 cd opencv
 mkdir build
 cd build
 cmake ..
 make
+```
 
 Configurar y Compilar tu Proyecto
 
+```
 cd ../../  # Regresa a la carpeta principal del proyecto
 mkdir build
 cd build
 cmake ..
 make
 ./Tarea2-SSOO
-
+```
 Esto debería configurar y compilar tanto OpenCV como tu proyecto correctamente. Recuerda ajustar las rutas y nombres de archivo según corresponda a tu proyecto.
 
 Nota:

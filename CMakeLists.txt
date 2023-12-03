@@ -3,8 +3,8 @@ project(Tarea2-SSOO)
 
 set(CMAKE_CXX_STANDARD 14)
 
-# Especificar la ruta de instalacion opencv
-set(OpenCV_DIR "${CMAKE_SOURCE_DIR}/opencv/install/share/OpenCV")
+# Especificar la ruta de instalación opencv
+set(OpenCV_DIR "${CMAKE_SOURCE_DIR}/opencv/share/OpenCV")
 
 find_package(OpenCV REQUIRED)
 

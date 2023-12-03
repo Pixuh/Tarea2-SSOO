@@ -13,6 +13,11 @@ sudo apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcod
 ```
 Configurar y Compilar OpenCV (dentro de la carpeta del proyecto)
 
+Descargar el repositorio de opencv desde github
+
+```
+https://github.com/opencv/opencv.git
+```
 ```
 cd opencv
 mkdir build
